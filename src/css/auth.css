@@ -1,0 +1,153 @@
+.authlayout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.authlayout .right {
+    height: 100vh;
+    background: #012B51;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.authlayout .right .small-img {
+    margin-left: 125px;
+}
+
+/* =======================================>Login<======================================= */
+
+
+.login{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.center {
+    /* text-align: center; */
+    width: 550px;
+    margin: auto;
+    padding: 30px;
+}
+
+.login h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33.3441px;
+    line-height: 41px;
+    color: #03014C;
+    margin: 30px 0px;
+}
+
+.login-with {
+    display: flex;
+    justify-content: space-between;
+}
+
+.google-with button {
+    border: 0.833602px solid #03014C;
+    box-sizing: border-box;
+    border-radius: 8.33602px;
+    background-color: transparent;
+    width: 220.9px;
+    height: 62.52px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.3376px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #03014C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    margin-top: 30px;
+    position: relative;
+}
+
+.login-form .show-password {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.login-form label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.3376px;
+    line-height: 16px;
+    color: #03014C;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 0.833602px solid #03014C !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.0064px;
+    line-height: 24px;
+    color: #03014C;
+}
+
+.login-form input:placeholder-shown {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.3376px;
+    line-height: 16px;
+    color: #03014C;
+    opacity: 0.5;
+}
+
+.login-form input:focus {
+    border: none !important;
+    outline: none !important;
+    border-bottom: 0.833602px solid #03014C !important;
+}
+
+.login .login-button button {
+    width: 100%;
+    background: #012B51;
+    border-radius: 8.33602px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* width: 462.2px; */
+    height: 78.36px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.0064px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.login .login-button p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.3376px;
+    line-height: 16px;
+    color: #03014C;
+}
+
+.login .login-button p a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13.3376px;
+    line-height: 16px;
+    color: #419BCD;
+}

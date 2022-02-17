@@ -1,0 +1,488 @@
+.project-parent {
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 430px 209px 259px;
+  column-gap: 30px;
+}
+.prioritytask-project-parent{
+  display: grid;
+  grid-template-columns: 460px 460px;
+  column-gap: 30px;
+}
+
+.project-name,
+.project-time,
+.quick-expert {
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.project-name {
+  width: 100%;
+  height: 293px;
+  padding: 20px;
+}
+
+.project-time {
+  width: 100%;
+  height: 293px;
+}
+
+.quick-expert {
+  width: 100%;
+  height: 293px;
+}
+
+.timetracking-dashboard {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  /* padding: 20px; */
+}
+
+.dashboard-scroll {
+  overflow-y: scroll;
+  height: 100vh;
+  padding: 30px 0;
+}
+
+.timetracking-dashboard .project-parent .project-name h5,
+.project-parent .quick-expert h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #0c1137;
+}
+
+.timetracking-dashboard .project-parent .project-name h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  color: #0c1137;
+  margin-top: 65px;
+}
+
+.timetracking-dashboard .project-parent .project-name .task-name {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  color: rgba(18, 18, 18, 0.71);
+}
+
+.timetracking-dashboard .project-parent .project-name .search,
+.timetracking-dashboard .project-parent .quick-expert .search {
+  width: 100%;
+  position: relative;
+}
+
+.timetracking-dashboard .project-parent .project-name .search .searchicon,
+.timetracking-dashboard .project-parent .quick-expert .search .searchicon {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 12px);
+  cursor: pointer;
+}
+
+.timetracking-dashboard .project-parent .project-name .search input {
+  width: 100%;
+  height: 40px;
+  background: #419bcd;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 0 30px;
+  color: #fff;
+}
+
+.timetracking-dashboard .project-parent .quick-expert .search input {
+  width: 100%;
+  height: 27.07px;
+  background: #419bcd;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #fff;
+}
+
+.timetracking-dashboard
+  .project-parent
+  .quick-expert
+  .search
+  input::placeholder {
+  font-size: 11px;
+}
+
+.timetracking-dashboard
+  .project-parent
+  .project-name
+  .search
+  input::placeholder,
+.timetracking-dashboard
+  .project-parent
+  .quick-expert
+  .search
+  input::placeholder {
+  color: #ffffff;
+}
+
+.timetracking-dashboard .project-parent .project-name .tracking {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.timetracking-dashboard .project-parent .project-name .tracking span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #0c1137;
+  margin-left: 5px;
+}
+
+.timetracking-dashboard .project-parent .quick-expert {
+  padding: 20px;
+  text-align: center;
+}
+
+.timetracking-dashboard .project-parent .quick-expert .date h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #012b51;
+}
+
+.timetracking-dashboard .project-parent .quick-expert .date {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  color: rgba(18, 18, 18, 0.71);
+  margin-top: 36px;
+  text-align: left;
+}
+
+.timetracking-dashboard .project-parent .quick-expert button {
+  width: 137px;
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid #012b51;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: center;
+  color: #012b51;
+}
+
+.thisweek {
+  width: 955px;
+  /* height: 422.45px; */
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.thisweek .head h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0c1137;
+  margin: 0;
+}
+
+.thisweek .thisweek-table thead,
+.thisweek .thisweek-table tbody,
+.thisweek .thisweek-table tfoot,
+.thisweek .thisweek-table tr,
+.thisweek .thisweek-table td,
+.thisweek .thisweek-table th,
+.timetracking-dashboard .open-task thead,
+.timetracking-dashboard .open-task tbody,
+.timetracking-dashboard .open-task tfoot,
+.timetracking-dashboard .open-task tr,
+.timetracking-dashboard .open-task td,
+.timetracking-dashboard .open-task th {
+  border-color: unset !important;
+  border-style: none !important;
+  border-width: unset !important;
+}
+
+.thisweek .thisweek-table thead {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #012b51;
+}
+
+.thisweek .thisweek-table tbody tr td {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(18, 18, 18, 0.71);
+}
+
+.thisweek .thisweek-table tbody tr td .project-logo {
+  width: 28px;
+  height: 28px;
+  background: #419bcd;
+  border-radius: 50%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7px;
+  text-align: center;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.thisweek .thisweek-table button {
+  border: none;
+  outline: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #419bcd;
+  background-color: transparent;
+}
+
+.timetracking-dashboard .open-task {
+  width: 955px;
+  /* height: 168px; */
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.timetracking-dashboard .open-task h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0c1137;
+}
+
+.timetracking-dashboard .open-task tr td {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(18, 18, 18, 0.71);
+}
+
+.timetracking-dashboard .open-task tr .color-red {
+  color: rgba(255, 0, 0, 0.71);
+}
+
+/* ==================================================>Priority Tasks<================================================== */
+
+.priority-tasks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.priority-tasks .task {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.71);
+  margin-bottom: 0px;
+}
+
+.priority-tasks .date {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 0, 0, 0.71);
+  margin-bottom: 0px;
+}
+
+.font-family-montserrat {
+  font-family: Montserrat !important;
+}
+
+.font-family-Inter {
+  font-family: Inter !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-15 {
+  font-size: 15px !important;
+}
+
+.font-11 {
+  font-size: 11px !important;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-dark {
+  color: rgba(18, 18, 18, 0.72);
+}
+
+.font-color-012B51 {
+  color: #012b51 !important;
+}
+
+.font-color-FFFFFF {
+  color: #ffffff !important;
+}
+
+.button-419BCD {
+  background-color: #419bcd;
+  border: none;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.br-100 {
+  border-radius: 100px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.search-input {
+  outline: none;
+}
+
+.search-input::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.set-search-icon {
+  position: absolute !important;
+  top: 20px !important;
+  right: 23px !important;
+}
+
+.export-button {
+  padding: 6.5px 50px;
+  background-color: transparent !important;
+  border: 1px solid #012b51;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.apexcharts-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 209px;
+  margin: 0 auto;
+}
+.startTracking-modal .modal-header,
+.startTracking-modal .modal-body {
+  border: none !important;
+  padding: 0 !important;
+}
+.startTracking-modal .modal-dialog {
+  width: 411px;
+  /* padding: 40px; */
+ 
+}
+.startTracking-modal .modal-content {
+  padding: 20px;
+  border-radius: 20px !important;
+}
+.startTracking-modal .modal-header .modal-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #0c1137;
+}
+.startTracking-modal .modal-header .close {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 34px;
+  cursor: pointer;
+}
+.startTracking-modal .modal-body .texts h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(18, 18, 18, 0.71);
+  margin: 0;
+}
+.startTracking-modal .modal-body .texts p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(18, 18, 18, 0.71);
+  margin: 0;
+}
+.startTracking-modal .modal-body .tracking-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.startTracking-modal .modal-body .tracking-btns button {
+  background: #ffffff;
+  border: 1px solid #012b51;
+  box-sizing: border-box;
+  border-radius: 100px;
+  outline: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #012b51;
+  padding: 3px 30px;
+}

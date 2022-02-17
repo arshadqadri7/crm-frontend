@@ -1,0 +1,256 @@
+.menu,
+.menu-sidebar {
+  display: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #022b51;
+  border: 5px solid #fff;
+}
+
+@media only screen and (min-width: 1440px) {
+  .main-table {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .dashboard-scroll {
+    width: calc(100vw - 230px);
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .project-time canvas {
+    max-width: 250px !important;
+    min-width: 200px !important;
+    max-height: 250px;
+    min-height: 200px;
+  }
+  .crm-myprofile {
+    width: 800px;
+  }
+  .thisweek {
+    width: 100%;
+  }
+  .timetracking-dashboard .open-task {
+    width: 100%;
+  }
+  /* .project-name {
+  width: 100%;
+} */
+  .project-parent {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+  }
+  .prioritytask-project-parent {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+  .project-parent .project-name {
+    grid-column: 1 / span 3;
+  }
+  .project-time {
+    margin-right: 20px;
+  }
+  .admin-export .export-filter {
+    width: 722px;
+  }
+  .dashboard{
+    width: calc(100vw - 230px);
+  }
+}
+@media only screen and (max-width: 1046px) {
+  .main-table {
+    width: calc(100vw - 250px);
+  }
+  .table-responsive-scroll {
+    overflow-x: auto;
+  }
+  .table-responsive-width {
+    width: 980px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-table {
+    width: 100%;
+  }
+  .authlayout {
+    grid-template-columns: repeat(1, 100vw);
+  }
+  .dashboard{
+    width: 100%;
+  }
+
+  .authlayout .right {
+    display: none;
+  }
+  .login-with {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    /* justify-content: s; */
+    align-items: center;
+  }
+  .layout {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+  .menu {
+    left: 30px;
+  }
+  .menu,
+  .menu-sidebar {
+    display: block;
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  .menu-sidebar {
+    left: 210px;
+  }
+  .sidebar {
+    /* display: none; */
+    position: absolute;
+    height: 100vh;
+    width: 230px;
+    z-index: 9999;
+    /* left: -230px; */
+    transition: 0.5s;
+  }
+  .dashboard .modules {
+    column-gap: 50px;
+    flex-wrap: wrap;
+  }
+  .crm-table-header-flex {
+    flex-wrap: wrap;
+  }
+  .crm-myprofile {
+    width: 90%;
+  }
+  .teams-main {
+    max-width: 90%;
+    margin-top: 80px;
+  }
+
+  .padding-10 {
+    padding: 10px;
+  }
+  .dashboard-scroll {
+    width: 100vw;
+    /* padding: 0 10px; */
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .margin-top {
+    margin-top: 20px;
+  }
+  .margin-top-50 {
+    margin-top: 50px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-table {
+    padding: 10px;
+    margin-top: 30px;
+  }
+  .container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  /* .dashboard-scroll {
+    width: 100vw;
+  } */
+  .justify-center-arrow {
+    justify-content: center !important;
+    margin-bottom: 20px;
+  }
+  .overflow-x-scroll-width {
+    width: 768px;
+  }
+  .overflow-x-scroll {
+    overflow-x: auto;
+  }
+  .thisweek {
+    width: 95vw;
+    margin: 0 auto;
+  }
+  .margin-0 {
+    margin: 0;
+  }
+  .admin-export {
+    width: 100vw;
+    padding: 10px;
+  }
+  .admin-export .export-filter {
+    width: 100%;
+  }
+  .prioritytask-project-parent {
+    grid-template-columns: 97vw;
+    /* width: 100vw; */
+    row-gap: 20px;
+  }
+  .admin .admin-week-overview {
+    width: 96vw !important;
+  }
+  .admin{
+    width: 100vw !important;
+  }
+
+  .admin .admin-completed-task {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .crm-myprofile .crm-myprofile-header .text {
+    margin-top: 20px;
+  }
+  .center {
+    width: 100%;
+  }
+  .login h1 {
+    font-size: 20.3441px;
+  }
+  .login .login-button button {
+    height: 60.36px;
+    font-size: 16px;
+  }
+  .login-with {
+    justify-content: center;
+  }
+  .main-table .add-new button {
+    width: 141px;
+  }
+  .project-parent {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    column-gap: 0;
+  }
+  .project-parent .project-name {
+    grid-column: 1 / span 1;
+  }
+  .width-100 {
+    width: 100vw;
+  }
+  .startTracking-modal .modal-dialog {
+    width: 97%;
+  }
+ 
+}
+
+@media only screen and (max-width: 500px) {
+  .modal-table-width {
+    width: 500px;
+  }
+  .teams-scroll {
+    overflow-x: auto;
+  }
+  .teams-scroll-width {
+    width: 480px;
+  }
+}

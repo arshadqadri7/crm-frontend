@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.layout {
+  display: grid;
+  grid-template-columns: 230px auto;
+  height: 100vh;
+  overflow: hidden;
+}
+.dashboard {
+  width: 100%;
+  height: 100%;
+}
+.dashboard .modules {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.dashboard .module {
+  row-gap: 30px;
+}
+.dashboard .module,
+.dashboard .modules .crm {
+  width: 259px;
+  height: 191px;
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.dashboard .module p {
+  width: 100%;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  color: #0c1137;
+  margin-top: 30px;
+}
+.dashboard .module button {
+  width: 137px;
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid #012b51;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  color: #012b51;
+}
+
+.dashboard .modules .crm a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #0c1137;
+}
+.dashboard .modules .crm p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.71);
+}

@@ -1,0 +1,231 @@
+.admin {
+  width: max-content;
+}
+.admin .admin-week-overview {
+  width: 100%;
+  height: 354px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 14px;
+}
+.admin .admin-completed-task {
+  width: 100%;
+  min-height: 354.62px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+}
+.admin .admin-week-overview,
+.admin .admin-completed-task {
+  padding: 30px;
+}
+.admin .admin-completed-task h5,
+.admin .admin-week-overview h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #012b51;
+  margin: 0;
+}
+.admin .admin-completed-task .total-completed-task {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  color: #a5a5a5;
+}
+
+.admin .completed-tasks .name h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #012b51;
+  margin: 0;
+}
+.admin .completed-tasks .name p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #a5a5a5;
+  margin: 0;
+}
+.admin .completed-tasks .completed-task h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #012b51;
+  margin: 0;
+}
+.admin .completed-tasks .completed-task span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #a5a5a5;
+}
+.admin .admin-completed-task button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #419bcd;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.admin-export {
+  width: max-content;
+  margin: 0 auto;
+}
+ .admin-export .export-filter {
+  width: 955px;
+  min-height: 431px;
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+}
+ .admin-export .export-filter h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #0c1137;
+}
+ .admin-export .export-filter label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #012b51;
+}
+ .admin-export .export-filter .inp-field input {
+  background: #419bcd;
+  border-radius: 100px;
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 40px;
+  padding: 0 10px 0 40px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+  .admin-export
+  .export-filter
+  .inp-field
+  input::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+}
+ .admin-export .export-filter .inp-field {
+  position: relative;
+  margin-top: 10px;
+}
+.z-ind{
+  z-index: 1;
+}
+ .admin-export .export-filter .inp-field .search-img {
+  position: absolute;
+  left: 14px;
+  top: 9px;
+  cursor: pointer;
+}
+ .admin-export .export-filter .inp-field .suggestion {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background: #63b3e0;
+  border-radius: 16px;
+  z-index: -1;
+  padding: 48px 20px 10px 20px;
+}
+
+  .admin-export
+  .export-filter
+  .inp-field
+  .suggestion
+  .suggested {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+  .admin-export
+  .export-filter
+  .inp-field
+  .suggestion
+  .suggested
+  p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0;
+}
+.export-filter .date {
+  margin-top: 150px;
+}
+.export-filter .file-types {
+  margin-top: 20px;
+}
+.export-filter .date h3,
+.export-filter .file-types h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #012b51;
+}
+.export-filter .date .dates,
+.export-filter .file-types .type {
+  display: flex;
+  align-items: center;
+}
+.export-filter .date .dates {
+  column-gap: 30px;
+}
+.export-filter .file-types .type {
+  column-gap: 15px;
+}
+.export-filter .date .dates span,
+.export-filter .file-types span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(18, 18, 18, 0.71);
+}
+.export-filter .filterbtn button {
+  width: 134px;
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid #012b51;
+  box-sizing: border-box;
+  border-radius: 100px;
+  outline: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #012b51;
+}
+.admin-export .export-filter .close-filter{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}

@@ -1,0 +1,608 @@
+.main-table {
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.crm-table-header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crm-table-header-flex h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0c1137;
+  margin: 0;
+}
+
+.crm-table-header-flex .head-search {
+  width: 360px;
+  height: 26px;
+  position: relative;
+}
+
+.crm-table-header-flex .head-search input {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border: 1px solid #012b51;
+  box-sizing: border-box;
+  border-radius: 100px;
+  outline: none;
+  padding: 0 100px 0 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #012b51;
+}
+
+.crm-table-header-flex .head-search input::placeholder {
+  color: #012b51;
+}
+
+.crm-table-header-flex .head-search button {
+  position: absolute;
+  right: 1px;
+  top: calc(50% - 11px);
+  width: 95.23px;
+  height: 24px;
+  background: #419bcd;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.main-table .add-new {
+  margin-top: 10px;
+}
+
+.main-table .add-new button {
+  outline: none;
+  width: 216px;
+  height: 26px;
+  background: #ffffff;
+  border: 1px solid #012b51;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: center;
+  color: #012b51;
+}
+
+.main-table-inner thead,
+.main-table-inner tbody,
+.main-table-inner tfoot,
+.main-table-inner tr,
+.main-table-inner td,
+.main-table-inner th,
+.teams-main .teams thead,
+.teams-main .teams tbody,
+.teams-main .teams tfoot,
+.teams-main .teams tr,
+.teams-main .teams td,
+.teams-main .teams th,
+.addnewrole-table thead,
+.addnewrole-table tbody,
+.addnewrole-table tfoot,
+.addnewrole-table tr,
+.addnewrole-table td,
+.addnewrole-table th {
+  border-color: unset !important;
+  border-style: none !important;
+  border-width: unset !important;
+}
+
+.main-table-inner thead tr th {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #012b51;
+}
+
+.main-table-inner tbody tr td {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(18, 18, 18, 0.71);
+}
+
+.main-table-inner .form-check-input[type="checkbox"] {
+  border-radius: 0 !important;
+  transform: scale(1.2);
+  box-shadow: none !important;
+  border: 1px solid #012b51 !important;
+  cursor: pointer;
+}
+
+.main-table-inner .form-check-input:checked {
+  background-color: #012b51 !important;
+  border-color: #012b51 !important;
+  transform: scale(1.2);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.table-footer .arrow-btn {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.table-footer .select-page-size .form-select {
+  width: auto;
+  border: none !important;
+  appearance: none;
+  box-shadow: none !important;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(18, 18, 18, 0.71);
+  cursor: pointer;
+}
+
+.table-footer .select-page-size {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+  color: rgba(18, 18, 18, 0.71);
+  column-gap: 30px;
+}
+
+.table-footer .select-page-size h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+  color: rgba(18, 18, 18, 0.71);
+  margin: 0;
+}
+
+.crm-myprofile {
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(0, 5, 58, 0.05);
+  border-radius: 6px;
+  width: 995px;
+  padding: 20px 0;
+  margin: 60px auto;
+}
+
+.crm-myprofile .crm-myprofile-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  padding: 20px 20px;
+  border-bottom: 1px solid #ebefff;
+}
+
+.crm-myprofile .crm-myprofile-header .text h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0.533333px;
+  color: #011632;
+}
+
+.crm-myprofile .crm-myprofile-header .text p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  color: #000000;
+}
+
+.crm-myprofile .crm-myprofile-header .profile {
+  width: 108.24px;
+  height: 109px;
+  position: relative;
+}
+
+.crm-myprofile .crm-myprofile-header .profile .edit-profile {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #419bcd;
+  border-radius: 50%;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.crm-myprofile .crm-myprofile-header .profile img {
+  border-radius: 50%;
+}
+
+.crm-myprofile .myprofile-detail-area label,
+.addnewcontact-modal label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.2625px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.crm-myprofile .myprofile-detail-area .inp-field input,
+.addnewcontact-modal .inp-field input {
+  background: #ffffff;
+  border: 1px solid #d0dae9;
+  border-radius: 4px;
+  width: 100%;
+  height: 44px;
+  padding: 0 20px;
+}
+
+.crm-myprofile .myprofile-detail-area {
+  padding: 20px;
+}
+
+.crm-myprofile .myprofile-detail-area button {
+  background: #419bcd;
+  border: 0.25px solid #419bcd;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 74px;
+  height: 28px;
+  color: #f8fafc;
+  margin: 30px 0 10px;
+}
+
+.addnewcontact-modal .modal-dialog .modal-body,
+.addnewcontact-modal .modal-dialog .modal-header {
+  padding: 30px 50px !important;
+}
+
+.crm-myprofile .myprofile-detail-area .inp-field input:focus,
+.addnewcontact-modal .inp-field input:focus {
+  border: 1px solid #012b51;
+  box-shadow: 0px 5px 10px 1px rgba(4, 10, 63, 0.1);
+  border-radius: 4px;
+  outline: none;
+}
+
+.addnewcontact-modal h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #0c1137;
+}
+
+.addnewcontact-modal form button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #f8fafc;
+  width: 74px;
+  height: 28px;
+  background: #419bcd;
+  border: 0.25px solid #419bcd;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.teams-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.teams-main .teams {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.teams-main .teams h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #012b51;
+}
+
+.teams-main .teams .table thead th {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #012b51;
+}
+
+.teams-main .teams .table tbody td {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(18, 18, 18, 0.71);
+}
+
+/* =================================>Teams<=============================== */
+
+.teams .team {
+  display: flex;
+  align-items: center;
+}
+
+.teams .team .team-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(18, 18, 18, 0.71);
+  margin-right: 20px;
+}
+
+.teams-main .new-teams {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.new-teams h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0c1137;
+}
+
+.new-teams input {
+  width: 100%;
+  height: 27.07px;
+  background: #419bcd;
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #ffffff;
+  padding: 0 10px;
+}
+.new-teams input::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.disable-button {
+  margin-top: 20px;
+  background: #ffffff;
+  border: 1px solid #012b51;
+  box-sizing: border-box;
+  border-radius: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  padding: 9px 29px;
+  color: #012b51;
+}
+.personaliseTable-modal .modal-content {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.22) !important;
+  border-radius: 20px !important;
+}
+.personaliseTable-modal h5 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  color: #0c1137;
+}
+.personaliseTable-modal p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgba(18, 18, 18, 0.71);
+}
+.personaliseTable-modal .modal-sm {
+  max-width: 411px !important;
+}
+.personaliseTable-modal .personaliseTable-data {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.22);
+  border-radius: 20px;
+  padding: 20px;
+}
+.personaliseTable-modal .personaliseTable-data ul {
+  padding: 0;
+}
+.personaliseTable-modal .personaliseTable-data ul li {
+  list-style: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(18, 18, 18, 0.71);
+}
+.addnewcontact-modal .edit-btn {
+  width: 100%;
+}
+.addnewrole-table thead th {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #012b51;
+}
+.addnewrole-table tbody td {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(18, 18, 18, 0.71);
+}
+/* .addnewrole-table .form-check-input:checked[type=checkbox] {
+  background-image: url(require(""))
+} */
+.addnewrole-table .form-check-input {
+  border-radius: 50% !important;
+  transform: scale(1.2);
+  box-shadow: none !important;
+  border-color: #0c5496 !important;
+  /* background-image: url("/src/assets/img/check.png"); */
+  cursor: pointer;
+}
+.addnewrole-table .form-check-input:checked {
+  background-color: #0c5496 !important;
+}
+#addnewRole .modal-header,
+#editRole .modal-header {
+  border-bottom: none !important;
+}
+
+.addnewcontact-modal .editrole-modal {
+  background: #ffffff;
+  box-shadow: 10px 24px 54px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  min-height: 300px;
+  padding: 20px;
+}
+.addnewcontact-modal .editrole-btn {
+  min-width: 74px;
+  height: 28px;
+  background: #419bcd;
+  border: 0.25px solid #419bcd;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  color: #f8fafc;
+}
+.cusorPointer {
+  cursor: pointer;
+}
+.addnewcontact-modal #addCompnay label {
+  margin-top: 20px;
+}
+.custom-selector .select-role {
+  width: 100%;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid #d0dae9;
+  border-radius: 4px;
+  padding: 0 20px;
+  outline: none;
+}
+.custom-selector .select-search-icon {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+  cursor: pointer;
+}
+.custom-selector .selector-suggestion {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+  padding: 10px 0;
+}
+.custom-selector .add-suggestion {
+  width: 100%;
+  padding: 0 20px;
+  position: relative;
+}
+.custom-selector .add-suggestion input {
+  height: 40px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #e1e8f1;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  color: #011632;
+  padding: 0 20px;
+  outline: none;
+}
+.custom-selector .add-suggestion button {
+  position: absolute;
+  right: 28px;
+  top: 6px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #f8fafc;
+  width: 74px;
+  height: 28px;
+  background: #419bcd;
+  border: 0.25px solid #419bcd;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+}
+.custom-selector .selector-suggestion ul {
+  padding: 0;
+}
+.custom-selector .selector-suggestion ul li {
+  list-style: none;
+  padding: 5px 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.3px;
+  color: #011632;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.custom-selector .selector-suggestion ul li:hover {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
+.project-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

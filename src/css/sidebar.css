@@ -1,0 +1,61 @@
+.sidebar {
+  background: #012b51;
+  /* padding-left: 2rem; */
+}
+.sidebar ul {
+  margin-top: 50px;
+  min-height: 80%;
+  padding: 0;
+}
+.sidebar ul li {
+  list-style: none;
+  margin: 20px 0;
+}
+.sidebar ul li a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 2rem;
+}
+.sidebar .logo a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+.sidebar .logo {
+  margin: 20px 0;
+}
+.sidebar .logout {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 2rem;
+  
+}
+.sidebar .back-btn-div{
+width: 100%;
+padding: 10px 0 10px 2rem ;
+border-bottom: 1px solid  rgba(18, 80, 137, 0.47);
+}
+ .back-btn{
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
